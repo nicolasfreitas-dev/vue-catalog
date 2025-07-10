@@ -1,0 +1,13 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Teclado Mecânico",
+      "descricao": "Switch blue, RGB",
+      "preco": 250,
+      "categoria": "Periféricos",
+      "estoque": 15,
+      "imagemUrl": ""
+    }
+  ]
+}
