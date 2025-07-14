@@ -5,5 +5,5 @@ export interface Product {
   preco: number
   categoria: string
   estoque: number
-  imageUrl?: string
+  imagemUrl?: string
 }
