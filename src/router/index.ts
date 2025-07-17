@@ -2,9 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 import ProductList from '@/pages/ProductList.vue'
 import ProductDetail from '@/pages/ProductDetails.vue'
 import ProductFormPage from '@/pages/ProductFormPage.vue'
+import Home from '@/pages/Home.vue'
 
 const routes = [
-  { path: '/', redirect: '/produtos' },
+  { path: '/', component: Home },
   { path: '/produtos', component: ProductList },
   { path: '/produtos/novo', component: ProductFormPage },
   { path: '/produtos/:id', component: ProductDetail },
