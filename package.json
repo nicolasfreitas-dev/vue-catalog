@@ -46,5 +46,17 @@
     "vite-plugin-vue-devtools": "^7.7.7",
     "vitest": "^3.2.4",
     "vue-tsc": "^2.2.10"
+  },
+  "eslintConfig": {
+    "rules": {
+      "vue/multi-word-component-names": [
+        "error",
+        {
+          "ignores": [
+            "Header"
+          ]
+        }
+      ]
+    }
   }
 }
