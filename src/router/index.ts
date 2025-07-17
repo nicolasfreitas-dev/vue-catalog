@@ -4,11 +4,11 @@ import ProductDetail from '@/pages/ProductDetails.vue'
 import ProductFormPage from '@/pages/ProductFormPage.vue'
 
 const routes = [
-  { path: '/', redirect: '/products' },
-  { path: '/products', component: ProductList },
-  { path: '/products/novo', component: ProductFormPage },
-  { path: '/products/:id', component: ProductDetail },
-  { path: '/products/:id/editar', component: ProductFormPage },
+  { path: '/', redirect: '/produtos' },
+  { path: '/produtos', component: ProductList },
+  { path: '/produtos/novo', component: ProductFormPage },
+  { path: '/produtos/:id', component: ProductDetail },
+  { path: '/produtos/:id/editar', component: ProductFormPage },
 ]
 
 const router = createRouter({
